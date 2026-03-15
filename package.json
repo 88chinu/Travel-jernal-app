@@ -2,6 +2,18 @@
   "name": "expresslevel3project",
   "version": "1.0.0",
   "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/88chinu/expressLevel3Project#readme",
+  "bugs": {
+    "url": "https://github.com/88chinu/expressLevel3Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/88chinu/expressLevel3Project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +21,6 @@
     "dev": "nodemon index.js",
     "type": "module"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/88chinu/expressLevel3Project.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/88chinu/expressLevel3Project/issues"
-  },
-  "homepage": "https://github.com/88chinu/expressLevel3Project#readme",
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "body-parser": "^2.2.2",
@@ -34,5 +34,6 @@
     "mongoose": "^9.1.6",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.11"
-  }
+  },
+  "devDependencies": {}
 }
